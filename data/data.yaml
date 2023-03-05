@@ -1,0 +1,6 @@
+path: ../datasets/trash
+train: train/images
+val: valid/images
+test: test/images
+
+names: ['head', 'helmet', 'person']
