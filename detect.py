@@ -103,6 +103,7 @@ def run(
     bs = 1  # batch_size
     if webcam:
         view_img = check_imshow(warn=True)
+        print('the source is '+ source)
         dataset = LoadStreams(source, img_size=imgsz, stride=stride, auto=pt, vid_stride=vid_stride)
         bs = len(dataset)
     elif screenshot:
